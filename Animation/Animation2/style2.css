@@ -1,0 +1,31 @@
+#xyz{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: red;
+    /* animation-name: rishabh;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: 3; */
+    animation: rishabh 5s linear 2s infinite alternate;
+}
+/* @keyframes rishabh {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  } */
+
+
+@keyframes rishabh {
+  /* 0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;} */
+
+  /* 0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:1200px; top:0px;}
+  50%  {background-color:blue; left:1200px; top:500px;}
+  75%  {background-color:green; left:0px; top:500px;}
+  100% {background-color:red; left:0px; top:0px;} */
+    
+}
